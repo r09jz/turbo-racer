@@ -11,10 +11,13 @@ fullscreen = 1
 
 [app:android]
 android.permissions = VIBRATE
+android.api = 31
+android.minapi = 24
+android.ndk = 25b
+android.sdk = 24
+android.accept_sdk_license = True
+android.archs = arm64-v8a
 
 [buildozer]
 log_level = 2
 warn_on_root = 1
-
-[app:android.arch]
-android.archs = arm64-v8a
